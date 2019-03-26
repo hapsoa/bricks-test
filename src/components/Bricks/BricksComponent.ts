@@ -2,7 +2,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import Bricks, { BricksInstance } from 'bricks.js';
 
 @Component({})
-export default class Home extends Vue {
+export default class BricksComponent extends Vue {
   public bricksInstance!: BricksInstance;
   public brickArray: string[] = ['aa', 'b', 'c', 'd'];
 
